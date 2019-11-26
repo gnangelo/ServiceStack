@@ -1,0 +1,21 @@
+body{
+    background-color:#EEEEEE;
+}
+
+.done {
+    text-decoration: line-through!important;
+    color: #777777;
+}
+
+.todo-destroy {
+    position: absolute;
+    right: 5px;
+    top: 14px;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+
+.edit {
+    display: none;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exemplo Todo</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/assets/css/todo.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="card col-md-10">
+                <div>
+                    <h1>Todos</h1>
+                    <div class="form-inline">
+                        <input type="text" class="form-control col-md-8" id="addTodo" placeholder="Add todo">
+                        <div class="col-md-4">
+                            <button id="btnAdd" class="btn btn-success">Add</button>
+                        </div>
+                    </div>
+
+                    <hr>
+                    <ul id="sortable" class="list-unstyled">
+                        <li class="ui-state-default">
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input class="form-check-input" type="checkbox" value="" />Take out the trash</label>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="card-footer">
+                        <strong><span class="count-todos"></span></strong> Itens
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+        <script src="/assets/js/todo.js"></script>
+    </body>
+</html>
